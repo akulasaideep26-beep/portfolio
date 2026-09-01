@@ -4,6 +4,12 @@
  */
 
 import { Skill, Project, Certification, InnovationEvent, TimelineItem, Stat } from './types';
+import hmotionImg from './assets/images/hmotion_ai_project_1788197052160.jpg';
+import academicDocImg from './assets/images/academic_doc_project_1788197069248.jpg';
+import clipboardImg from './assets/images/clipboard_project_1782831536096.jpg';
+import fertilizerImg from './assets/images/fertilizer_project_1782831731174.jpg';
+import trafficImg from './assets/images/traffic_project_1782831563191.jpg';
+import foodPreservationImg from './assets/images/food_preservation_project_1782831548300.jpg';
 
 export const personalInfo = {
   name: 'Akula Saideep',
@@ -89,7 +95,7 @@ export const projects: Project[] = [
     category: 'AI / Computer Vision / Full Stack',
     status: 'Completed',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Node.js', 'Express', 'MongoDB'],
-    image: '/src/assets/images/hmotion_ai_project_1788197052160.jpg',
+    image: hmotionImg,
     github: 'https://github.com/akulasaideep26-beep/hmotion-ai',
     liveDemo: '#sim-hmotion',
   },
@@ -101,7 +107,7 @@ export const projects: Project[] = [
     category: 'Generative AI / Intelligent Document Management',
     status: 'Completed',
     technologies: ['Python', 'Generative AI', 'NLP', 'Vector Embeddings', 'Flask', 'MongoDB', 'React', 'Tailwind CSS'],
-    image: '/src/assets/images/academic_doc_project_1788197069248.jpg',
+    image: academicDocImg,
     github: 'https://github.com/akulasaideep26-beep/academic-doc-assistant',
     liveDemo: '#sim-academic-doc',
   },
@@ -113,7 +119,7 @@ export const projects: Project[] = [
     category: 'Cloud & Desktop Software',
     status: 'Completed',
     technologies: ['Python', 'SQLite', 'AWS S3', 'Flask', 'NLP'],
-    image: '/src/assets/images/clipboard_project_1782831536096.jpg',
+    image: clipboardImg,
     github: 'https://github.com/akulasaideep26-beep/intelligent-clipboard-code',
     liveDemo: '#sim-clipboard',
   },
@@ -125,7 +131,7 @@ export const projects: Project[] = [
     category: 'Innovation Concept',
     status: 'Concept Presented',
     technologies: ['Android UX Design', 'Figma Mockups', 'Agricultural IoT', 'Soil Science'],
-    image: '/src/assets/images/fertilizer_project_1782831731174.jpg',
+    image: fertilizerImg,
     conceptDetails: {
       overview: 'Fermart is a proposed direct-to-farm agricultural concept designed to modernize the fertilizer and pesticide supply chain for rural Indian farmers. By enabling direct communication between smallholders and certified dealers, it aims to eliminate predatory pricing by middlemen while promoting sustainable farming through localized soil-health advisory widgets.',
       details: [
@@ -150,7 +156,7 @@ export const projects: Project[] = [
     category: 'AI Innovation Concept',
     status: 'Concept Presented',
     technologies: ['Python', 'OpenCV', 'YOLOv8', 'PyTorch'],
-    image: '/src/assets/images/traffic_project_1782831563191.jpg',
+    image: trafficImg,
     conceptDetails: {
       overview: 'Proposed as an artificial intelligence and computer vision infrastructure solution. Rather than static timers, this system dynamically adjusts traffic light signals based on real-time vehicle counts from intersection cameras.',
       details: [
@@ -172,7 +178,7 @@ export const projects: Project[] = [
     category: 'Innovation Prototype',
     status: 'Prototype Completed',
     technologies: ['C/C++', 'ESP32', 'DHT11 Sensors', 'Flask', 'tinyML'],
-    image: '/src/assets/images/food_preservation_project_1782831548300.jpg',
+    image: foodPreservationImg,
     conceptDetails: {
       overview: 'Designed as an IoT and tinyML-based smart food preservation monitor. The system measures environmental parameters inside preservation vessels and runs tinyML models locally to predict the deterioration rate and remaining shelf-life of produce.',
       details: [
