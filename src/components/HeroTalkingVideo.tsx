@@ -25,7 +25,7 @@ export default function HeroTalkingVideo({ onOpenResume }: HeroTalkingVideoProps
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [showControls, setShowControls] = useState(true);
   const [hasStartedWithSound, setHasStartedWithSound] = useState(false);
-  const [videoSrc, setVideoSrc] = useState<string>('/videos/saideep_intro.mp4');
+  const [videoSrc, setVideoSrc] = useState<string>(`${import.meta.env.BASE_URL}videos/saideep_intro.mp4`);
   const [isCustomLoaded, setIsCustomLoaded] = useState(false);
 
   // Auto-hide controls timer
