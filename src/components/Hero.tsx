@@ -123,6 +123,14 @@ export default function Hero({ onOpenResume, onOpenIntro }: HeroProps) {
               Building intelligent solutions and exploring innovative technology.
             </motion.p>
 
+            {/* Small line below the main hero section */}
+            <motion.p
+              variants={itemVariants}
+              className="text-sm text-slate-400 font-medium"
+            >
+              Thanks for visiting my portfolio.
+            </motion.p>
+
             {/* Meta tags list (Location, year, college) */}
             <motion.div
               variants={itemVariants}
